@@ -2,7 +2,7 @@ const express = require('express')
 
 const router = express.Router()
 
-const { getProducts, postProducts, putProducts, deleteProducts , getProductsById} = require('/home/godspeed/node_project/controler/productControler')
+const { getProducts, postProducts, putProducts, deleteProducts , getProductsById} = require('../controler/productControler')
 
 
 
