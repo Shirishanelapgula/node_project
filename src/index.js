@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000
 var cors = require('cors');
 
-const  errorMiddleware = require('/home/godspeed/node_project/middleware/errorMiddleWare')
+const  errorMiddleware = require('../middleware/errorMiddleware')
 
 app.use(express.json())
 app.use(express.urlencoded({extended:false}))
