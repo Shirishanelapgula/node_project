@@ -1,4 +1,4 @@
-const Product = require('/home/godspeed/node_project/models/productModel')
+const Product = require('../models/productModel')
 const asyncHandler = require('express-async-handler');
 
 

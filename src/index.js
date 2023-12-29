@@ -11,7 +11,7 @@ app.use(express.urlencoded({extended:false}))
 
 const mongoose = require('mongoose');
 
-const productRoutes = require('/home/godspeed/node_project/routes/productRoutes')
+const productRoutes = require('../routes/productRoutes')
 
 const MONGO_URL = process.env.MONGO_URL
 
